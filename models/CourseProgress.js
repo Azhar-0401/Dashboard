@@ -4,7 +4,7 @@ const courseProgress = new mongoose.Schema({
     
     courseID: {
         type:mongoose.Schema.Types.ObjectId,
-        ref:"Course",  // refer 
+        ref:"Course",
     },
     completedVideos: [
         {
